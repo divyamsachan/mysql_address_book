@@ -5,10 +5,10 @@ const mysql2 = require('mysql2');
 let port = process.env.PORT || 8001;
 
 let connection = mysql2.createConnection({
-    host: 'sql6.freesqldatabase.com',
-    user: 'sql6583872',
-    password: 'gK3WMzNiLv',
-    database: 'sql6583872'
+    host: '',
+    user: '',
+    password: '',
+    database: ''
 })
 
 
